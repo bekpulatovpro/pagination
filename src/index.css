@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+body,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+}
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+img {
+  object-fit: cover;
+  vertical-align: middle;
+}
